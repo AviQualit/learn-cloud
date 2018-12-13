@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+  	"express": "latest",
+    "cfenv": "latest",
+    "@sap/hdbext": "latest",
+    "async": "latest",
+   "request": "latest",
+   "https":"latest"
+  },
+  "description": "my description",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-junit": "^5.2.0"
+  },
+  "files": [],
+  "main": "server.js",
+  "name": "cf-nodejs",
+  "scripts": {
+    "test": "jest --config jest.json",
+    "test-coverage": "jest --coverage --config jest.json",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "version": "1.0.0"
+}
